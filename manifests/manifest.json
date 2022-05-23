@@ -1,0 +1,57 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://matjaz-kragelj.github.io/testing-IIIF-NUK/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Die Merfart vn erfarung nüwer Schiffung vnd Wege zů vilen ...",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "<dc:subject rdf:resource=\"http://www.wikidata.org/entity/Q12554\"/>\n<dc:subject rdf:resource=\"http://www.wikidata.org/entity/Q107274057\"/>\n<dc:subject rdf:resource=\"http://www.wikidata.org/entity/Q107274053\"/>",
+    "@language" : "ger"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://4ed70b7a-5dc5-4cb2-a23a-70023ec3a863",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3f35535e-521c-4f18-85ea-909c63f65c14",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1641,
+      "width" : 1400,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://41f90aad-3fc4-40c0-bc12-7e618dc29724",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/id-87007232_scn-0020/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/id-87007232_scn-0020",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1641,
+          "width" : 1400
+        },
+        "on" : "http://3f35535e-521c-4f18-85ea-909c63f65c14"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6f52a419-22f8-471f-b15c-3a97ebc4a962",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
