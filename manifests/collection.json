@@ -1,0 +1,13 @@
+{
+  "id" : "https://matjaz-kragelj.github.io/testing-IIIF-NUK/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in matjaz-kragelj/testing-IIIF-NUK project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://matjaz-kragelj.github.io/testing-IIIF-NUK/manifests/manifest.json",
+    "label" : "Die Merfart vn erfarung nüwer Schiffung vnd Wege zů vilen ..."
+  } ]
+}
